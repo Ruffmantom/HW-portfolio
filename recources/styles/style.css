@@ -1,0 +1,52 @@
+html {
+    background-image: url("/recources/images/backdrop.jpg");
+}
+
+body {
+    width: 100%;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    
+
+}
+
+/* Main Header styling */
+header {
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+    height: 75px;
+    background-color:#ffffff;
+    top: 0;
+    border: 1px solid black;
+    display: flex;
+    
+}
+
+.nav-bar {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0 auto;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    border: 1px solid blue;
+    padding: 0 20px;
+}
+
+.logo-nav { 
+    height: 90%;
+    
+}
+
+#nav {
+    display: flex;
+    
+}
+
+#nav, li{
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+}
