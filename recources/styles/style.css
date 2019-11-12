@@ -1,10 +1,10 @@
 html {
-    background-image: url("/recources/images/backdrop.jpg");
+    background-image: url("/recources/images/white-waves.png");
 }
 
 body {
     width: 100%;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    
     
 
 }
@@ -17,36 +17,67 @@ header {
     height: 75px;
     background-color:#ffffff;
     top: 0;
-    border: 1px solid black;
-    display: flex;
-    
-}
-
-.nav-bar {
+    border: 1px solid black; 
+    overflow: hidden;
+    border-bottom: 2px solid #cccccc;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    margin: 0 auto;
-    width: 65%;
-    display: flex;
-    align-items: center;
-    border: 1px solid blue;
-    padding: 0 20px;
-}
-
-.logo-nav { 
-    height: 90%;
     
 }
+
+.nav-bar { 
+    height: 100%;
+    margin: 0 auto;
+    width: 960px;
+    /* border: 1px solid blue; */
+    /* display: flex;
+    align-items: center; */
+    
+}
+
+#logo-nav { 
+    height: 100%;
+    width: 20%;
+    background-color:#4aaaa5;
+    color: #ffffff;
+    /* border: 1px solid red; */
+    float: left;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 17px; 
+}
+
 
 #nav {
-    display: flex;
+    margin-top: 20px;
+    float: right;
+    /* border: 1px solid green; */
     
+    
+}
+#border-left{
+    padding-left: 20px;
+    border-left: 2px solid #77777735;
+}
+#border-right{
+    border-right: 2px solid #77777735;
+    padding-right: 20px;
 }
 
 #nav, li{
-    margin: 0 20px;
+    padding: 5px 0;
+    margin-left: 20px;
+    display: inline;
 }
 
 a {
     text-decoration: none;
     color: #777777;
 }
+a:hover{
+    color: blue;
+}
+
+
+/* Main section styles  */
+
+/* font-family: 'Georgia', Times, 'Times New Roman', serif; */
