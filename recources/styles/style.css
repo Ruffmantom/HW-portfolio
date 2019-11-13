@@ -47,7 +47,7 @@ header {
 
 
 #nav {
-    margin-top: 20px;
+    margin-top: 25px;
     float: right;
     /* border: 1px solid green; */
     
@@ -96,6 +96,7 @@ a:hover{
 .inside-sec{
     width: 90%;
     margin: 20px auto;
+    /* border: 1px solid green; */
 }
 
 .title{
@@ -105,6 +106,7 @@ a:hover{
     margin-bottom: 20px;
     padding-bottom:20px;
     border-bottom: 2px solid #77777735 ;
+
 }
 
 /* home page styling */
@@ -130,7 +132,8 @@ a:hover{
 
 /* footer styling */
 .footer{
-    position: fixed;
+    text-align: center;
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
     z-index: 0;
@@ -138,4 +141,8 @@ a:hover{
     color: #ffffff;
     height: 60px;
     border-top: 5px solid #4aaaa5;
+}
+
+.footer p{ 
+    margin-top: 20px;
 }
