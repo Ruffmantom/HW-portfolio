@@ -122,7 +122,24 @@ a:hover{
 }
 
 /* Contact page styling */
-
+.enter{
+    margin-bottom: 20px;
+}
+.input{
+    margin-bottom: 20px;
+    
+}
+.in-name{
+    width: 40%;
+}
+.in-email{
+    width: 40%;
+    
+}
+.in-text{
+    width: 40%;
+    height: 40px;
+}
 
 
 
